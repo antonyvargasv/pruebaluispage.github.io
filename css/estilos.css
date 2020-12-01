@@ -32,7 +32,7 @@ header {
   list-style: none;
 }
 .header__link {
-  padding: 10px;
+  padding: 5px;
   color: #fff;
   text-decoration: none;
 }
@@ -67,16 +67,16 @@ main{
 
 .text__orange {
   color: var(--orange);
-  padding-left: 80px;
+  padding-left: 20px;
   font-family: "Roboto", sans-serif;
 }
 .main__title {
-  padding-left: 80px;
-  font-size: 60px;
+  padding-left: 20px;
+  font-size: 50px;
 }
 
 .text__black {
-  padding-left: 80px;
+  padding-left: 20px;
   font-family: "Roboto", sans-serif;
 }
 
