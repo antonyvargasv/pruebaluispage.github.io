@@ -223,13 +223,50 @@
   display: flex;
 }
 .portafolio__cards{
-  width: 1140px;
+  max-width: 1600px;
   margin: 5rem auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
+.portafolio__img{
+  height: 100%;
+  width: 100%;
+}
+.portafolio__design{
+  width: 400px;
+  height: 230px;
+}
+
+.portafolio__design01{
+  width: 100%;
+  height: 100%; 
+  background-image: url("./../design/active-sta02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+.portafolio__design02{
+  width: 100%;
+  height: 100%; 
+  background-image: url("./../design/desktop-preview.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.portafolio__design03{
+  width: 100%;
+  height: 100%; 
+  background-image: url("./../design/active-state.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.portafolio__design04{
+  width: 100%;
+  height: 100%; 
+  background-image: url("./../design/desktop-previe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 
@@ -326,6 +363,18 @@
 .footer__contacto{
   flex-direction: column;
   gap: 1.5rem;
+}
+.portafolio__cards{
+  max-width:auto;
+  margin: 1rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.portafolio__design{
+  padding: 15px;
+  width: 280px;
+  height: 153px;
 }
 
 
