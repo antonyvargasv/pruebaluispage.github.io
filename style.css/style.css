@@ -11,22 +11,22 @@
   border-bottom: 0.5px solid dimgray;
   height: 60px;
 }
-.header__list{
-  list-style: none;  
+.header__list {
+  list-style: none;
   display: flex;
-  justify-content: flex-end;  
+  justify-content: flex-end;
   height: 100%;
 }
-.header__item{
+.header__item {
   display: flex;
   align-items: center;
   padding: 0 2rem;
   cursor: pointer;
-  transition: 0.3s all ease;
+  transition: 0.1s all ease;
 }
 
 .header__item:hover {
-  background-color: #ccc;
+  background-color: #f06023;
 }
 
 .header__link {
@@ -38,8 +38,6 @@
 .header__item.menu {
   display: none;
 }
-
-
 
 .inicio__encabezado {
   color: #f06023;
@@ -100,8 +98,8 @@
   padding: 4rem;
 }
 .sobre-mi__info {
-  max-width: 80%;
-  font-size: 2rem;
+  max-width: 85%;
+  font-size: 1.5rem;
 }
 
 .sobre-mi h3 {
@@ -110,8 +108,6 @@
   font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
-
-
 
 .inicio {
   height: calc(100vh - 5rem);
@@ -220,58 +216,98 @@
 }
 
 @media screen and (max-width: 700px) {
- 
-  .header__list{
+  .header__list {
     justify-content: flex-start;
   }
-  .inicio{
-    padding-left: 1rem;
+  .inicio {
+    padding-left: 4rem;
   }
-  .inicio__encabezado{
+  .inicio__encabezado {
     font-size: 1rem;
   }
-  .inicio__informacion h1{
+  .inicio__informacion h1 {
     font-size: 4rem;
   }
 
-  .inicio__detalle{
+  .inicio__detalle {
     font-size: 2rem;
     padding: 1rem;
   }
-  .inicio__contactame {  
-    margin-top: 15px;
+  .inicio__contactame {
     width: 100px;
-   font-size: 0.8rem;
+    font-size: 0.8rem;
   }
 
-  
-  .sobre-mi__title{
+  .sobre-mi__title {
     font-size: 1.5rem;
   }
-  .sobre-mi__title h3{
+  .sobre-mi__title h3 {
     font-size: 1.5rem;
   }
-  .sobre-mi__detalle{
+  .sobre-mi__detalle {
     font-size: 1.5rem;
   }
-  .sobre-mi__info{
-    font-size: 1rem;
+
+  .sobre-mi__info {
+    max-width: 100%;
   }
-
-
-
-
 }
 @media screen and (max-width: 560px) {
- 
+  .inicio {
+    padding-left: 1rem;
+  }
   .header__item {
     display: none;
   }
   .header__item.menu {
-    color:  #f06023;
+    color: #f06023;
     font-size: 2rem;
     display: flex;
     padding: 1.25rem;
   }
+  .sobre-mi__info {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .sobre-mi {
+    padding-left: 1rem;
+    width: 100%;
+  }
+  .habilidades{
+    padding: 1rem;
+  }
+.habilidades__title{
+  font-size: 1.5rem;
+}
+.habilidades__detalle{
+  width: 100%;
+  font-size: 1.3rem;
+}
+.habilidad__lista{
+  padding: 1rem;
 }
 
+.habilidad__lista li{
+  font-size: 1rem;
+}
+.footer__enlace{
+  font-size: 1rem;
+}
+
+.footer__derechos h3{
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+.footer__derechos p{
+  padding-top: 1rem;
+  font-size: 0.8rem;
+}
+
+.footer__contacto{
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+
+}
