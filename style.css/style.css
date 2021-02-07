@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;600&family=Open+Sans+Condensed:wght@300;700&family=Roboto:wght@100;400;700;900&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+header {
+  background-color: #181a19;
+  border-bottom: 0.5px solid dimgray;
+}
+.header a {
+  color: #f5f6f7;
+  font-family: "Roboto", sans-serif;
+}
+.inicio__encabezado {
+  color: #f06023;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.inicio__detalle {
+  max-width: 700px;
+  font-size: 2rem;
+  color: #fff;
+  font-family: "Ibarra Real Nova", serif;
+}
+
+.inicio h1 {
+  max-width: 100%;
+  font-size: 120px;
+  font-family: "Ibarra Real Nova", serif;
+  font-weight: 600;
+  color: #fff;
+}
+
+.inicio__contactame {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-top: 35px;
+  width: 140px;
+  height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f06023;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sobre-mi__title {
+  font-size: 2rem;
+  color: #f06023;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.sobre-mi__detalle {
+  color: #f06023;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.sobre-mi {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  padding: 4rem;
+}
+.sobre-mi__info {
+  max-width: 80%;
+  font-size: 2rem;
+}
+
+.sobre-mi h3 {
+  color: #000;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  height: 5rem;
+  gap: 3rem;
+  padding: 2rem;
+}
+.menu ul a {
+  text-decoration: none;
+}
+
+.inicio {
+  height: calc(100vh - 5rem);
+  background-color: #181a19;
+  display: flex;
+  align-items: center;
+  padding-left: 4rem;
+}
+.inicio__informacion h1 {
+  color: #fff;
+}
+
+.habilidades {
+  background-color: #f06023;
+  height: auto;
+  padding: 4rem;
+  max-width: 100%;
+}
+
+.habilidades__title {
+  font-size: 2rem;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding-bottom: 1.5rem;
+}
+.habilidades__detalle {
+  max-width: 80%;
+  font-size: 2rem;
+  color: #333333;
+}
+.habilidad__lista {
+  list-style: none;
+  padding: 0.5rem 3rem;
+}
+.habilidad__lista li {
+  line-height: 1.8rem;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: rgb(41, 37, 37);
+}
+.sobre-mi__curriculum {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  margin-top: 35px;
+  width: 140px;
+  height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(41, 37, 37);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portafolio {
+  background-color: #f5f6f7;
+  height: 100vh;
+}
+.footer {
+  text-align: center;
+}
+.footer__contacto {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer {
+  background-color: #333333;
+}
+.footer__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.footer__redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.footer__redes i {
+  font-size: 2rem;
+  color: #f5f6f7;
+}
+
+.footer__enlace {
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  list-style: none;
+  color: #f5f6f7;
+}
+
+.footer__derechos {
+  color: #f5f6f7;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding: 1rem;
+}
