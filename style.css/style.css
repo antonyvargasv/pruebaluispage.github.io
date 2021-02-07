@@ -165,10 +165,7 @@
   align-items: center;
 }
 
-.portafolio {
-  background-color: #f5f6f7;
-  height: 100vh;
-}
+
 .footer {
   text-align: center;
 }
@@ -201,6 +198,11 @@
   color: #f5f6f7;
 }
 
+.footer__redes i:hover {
+  font-size: 2.5rem;
+  color: #f06023;
+}
+
 .footer__enlace {
   padding-top: 1rem;
   font-size: 1.5rem;
@@ -214,6 +216,23 @@
   font-weight: 300;
   padding: 1rem;
 }
+/* Portafolio */
+.portafolio{
+  height: auto;
+  background-color: #f5f6f7;
+  display: flex;
+}
+.portafolio__cards{
+  width: 1140px;
+  margin: 5rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+
 
 @media screen and (max-width: 700px) {
   .header__list {
